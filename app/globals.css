@@ -1,0 +1,107 @@
+:root {
+  --accent: #0f5257;
+  --accent-hover: #1a7a80;
+  --bg: #fafaf8;
+  --text: #1f2328;
+  --muted: #5a6168;
+  --border: #e3e3df;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.7;
+}
+
+.container {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 4rem 1.25rem 2rem;
+}
+
+h1,
+h2 {
+  color: var(--accent);
+  line-height: 1.25;
+}
+
+h1 {
+  font-size: 2.25rem;
+  margin: 0 0 0.5rem;
+}
+
+h2 {
+  font-size: 1.375rem;
+  margin: 0 0 0.75rem;
+}
+
+a {
+  color: var(--accent);
+}
+
+a:hover,
+a:focus-visible {
+  color: var(--accent-hover);
+}
+
+.hero {
+  margin-bottom: 3rem;
+}
+
+.tagline {
+  margin: 0;
+  font-size: 1.125rem;
+  color: var(--muted);
+}
+
+section {
+  margin-bottom: 2.5rem;
+}
+
+section p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+li + li {
+  margin-top: 0.5rem;
+}
+
+.footer {
+  border-top: 1px solid var(--border);
+  padding-top: 1.25rem;
+  font-size: 0.9375rem;
+  color: var(--muted);
+}
+
+.footer p {
+  margin: 0;
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding-top: 2.5rem;
+  }
+
+  h1 {
+    font-size: 1.875rem;
+  }
+}
