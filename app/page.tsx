@@ -10,11 +10,11 @@ export default function Home() {
 
       <main>
         <section aria-labelledby="semester-heading">
-          <h2 id="semester-heading">This semester</h2>
+          <h2 id="semester-heading">I like</h2>
           <ul>
-            <li>Hi</li>
-            <li>Bitch</li>
-            <li>Fuck you</li>
+            <li>Tits</li>
+            <li>Ass</li>
+            <li>Even bigger titties</li>
           </ul>
         </section>
 
