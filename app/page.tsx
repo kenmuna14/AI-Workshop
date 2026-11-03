@@ -20,12 +20,7 @@ export default function Home() {
 
         <section aria-labelledby="about-heading">
           <h2 id="about-heading">About</h2>
-          <p>
-            I recently graduated from the University of Hawaiʻi at Mānoa with a
-            bachelor&apos;s degree in economics. I&apos;m interested in how
-            economic ideas show up in everyday decisions, and I&apos;m figuring
-            out where to put what I&apos;ve learned to work next.
-          </p>
+          <p>hehe</p>
         </section>
       </main>
 
