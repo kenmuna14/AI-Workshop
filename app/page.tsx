@@ -9,6 +9,15 @@ export default function Home() {
       </header>
 
       <main>
+        <section aria-labelledby="semester-heading">
+          <h2 id="semester-heading">This semester</h2>
+          <ul>
+            <li>Hi</li>
+            <li>Bitch</li>
+            <li>Fuck you</li>
+          </ul>
+        </section>
+
         <section aria-labelledby="about-heading">
           <h2 id="about-heading">About</h2>
           <p>
@@ -18,30 +27,13 @@ export default function Home() {
             out where to put what I&apos;ve learned to work next.
           </p>
         </section>
-
-        <section aria-labelledby="semester-heading">
-          <h2 id="semester-heading">This semester</h2>
-          <ul>
-            <li>
-              Sharpening my data analysis skills by working through public
-              economic datasets in Excel and Python.
-            </li>
-            <li>
-              Reading up on behavioral economics to build on what I studied in
-              my coursework.
-            </li>
-            <li>
-              Exploring entry-level roles in economic research, finance, and
-              policy analysis.
-            </li>
-          </ul>
-        </section>
       </main>
 
       <footer className="footer">
         <p>
           &copy; {year} Kensho Munakata
         </p>
+        <p>Built with Claude Code</p>
       </footer>
     </div>
   );
